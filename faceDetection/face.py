@@ -1,5 +1,6 @@
 from django.shortcuts import render
-from django.contrib.auth.decorators import login_requiredimport datetime
+from django.contrib.auth.decorators import login_required
+import datetime
 import cv2
 import face_recognition as fr
 import os
